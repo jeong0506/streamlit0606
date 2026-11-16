@@ -18,7 +18,7 @@ df = pd.DataFrame(date_rng, columns=['date'])
 df['sales'] = np.random.randint(100, 500, size=(len(date_rng)))
 
 
-st.write print(df)
+st.write print(def)
 
 # Data visualization with Streamlit
 st.subheader("Monthly Sales Data")
