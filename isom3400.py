@@ -1,5 +1,3 @@
-import streamlit as st
-st.write("ISOM 3400")
 # business_app.py
 import streamlit as st
 import pandas as pd
