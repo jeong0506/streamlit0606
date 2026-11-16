@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 st.title("ISOM400:Business Data Dashboard")
 
 # Introduction text
-st.write("This dashboard helps visualize sales data over time.")
+st.write("ISOM")
 st.write("This dashboard helps visualize sales data over time.")
 
 
@@ -16,6 +16,9 @@ st.write("This dashboard helps visualize sales data over time.")
 date_rng = pd.date_range(start='1/1/2023', end='12/31/2023', freq='ME')
 df = pd.DataFrame(date_rng, columns=['date'])
 df['sales'] = np.random.randint(100, 500, size=(len(date_rng)))
+
+
+st.write print(df)
 
 # Data visualization with Streamlit
 st.subheader("Monthly Sales Data")
