@@ -15,11 +15,9 @@ target = st.number_input(
 region = st.selectbox("Select Region:", ["North", "South", "East", "West"])
 
 if st.button("Submit"):
-    # 05: show the entered values
     st.write(f"Sales target entered: ${target:,}")
     st.write(f"Selected region: {region}")
 
-    # 06: success message
     st.success("Dashboard updated successfully!")
 
     # Challenge extension
