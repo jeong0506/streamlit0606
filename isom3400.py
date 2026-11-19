@@ -10,7 +10,7 @@ Environment: VS Code / local Python
 Student information (fill in):
 Name: Kang Jeongwon
 Student ID: 20996425
-Email: _____________________________
+Email: jkangah@connect.ust.hk
 
 How to use:
 1. Fill in your name / ID / email above.
