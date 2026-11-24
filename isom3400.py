@@ -1,3 +1,42 @@
+import streamlit as st
+import math
+
+
+# Functions
+def add(a, b):
+    return a + b
+
+
+def subtract(a, b):
+    return a - b
+
+
+def multiply(a, b):
+    return a * b
+
+
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero"
+    return a / b
+
+
+def sine(x):
+    return math.sin(x)
+
+
+def log10_value(x):
+    if x <= 0:
+        return "Error: Log needs a number greater than 0"
+    return math.log10(x)
+
+
+def natural_log(x):
+    if x <= 0:
+        return "Error: Ln needs a number greater than 0"
+    return math.log(x)
+
+
 def main():
     # Title
     st.title("Basic Web Calculator")
