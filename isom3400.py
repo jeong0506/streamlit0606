@@ -1,4 +1,5 @@
 import streamlit as st
+import math
 
 # Title
 st.title("Basic Web Calculator")
@@ -20,9 +21,9 @@ if st.button("Calculate"):
         result = num1 * num2
     elif operation == "Divide":
         result = num1 / num2 if num2 != 0 else "Error: Division by zero"
-    elif operation=="Sin()":
-        result= "I dont know"
+    elif operation == "Sin()":
+        result = math.sin(num1)
     else:
-        result= "Invalid operation"
+        result = "Invalid operation"
 
     st.subheader(f"Result: {result}")
