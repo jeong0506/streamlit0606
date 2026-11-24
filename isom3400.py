@@ -20,5 +20,7 @@ if st.button("Calculate"):
         result = num1 * num2
     elif operation == "Divide":
         result = num1 / num2 if num2 != 0 else "Error: Division by zero"
+    elif operation=="Sin()":
+        pass
 
     st.subheader(f"Result: {result}")
